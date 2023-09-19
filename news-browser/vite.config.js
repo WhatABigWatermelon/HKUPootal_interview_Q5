@@ -11,5 +11,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
-  publicPath: '/HKUPootal_interview_Q5/',
+  publicPath:
+    process.env.NODE_ENV === 'production' ? '/HKUPootal_interview_Q5/' : '/',
+  base: './',
 })
