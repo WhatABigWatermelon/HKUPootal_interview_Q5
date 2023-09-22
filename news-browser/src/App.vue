@@ -129,8 +129,8 @@ body {
   background-size: contain;
 }
 .el-image__error {
-  background: url('./assets/fail.png') no-repeat 50% 50%;
-  background-size: 50%;
+  background: url('./assets/fail.png') no-repeat center;
+  background-size: contain;
 }
 @media (max-width: 768px) {
   .hidden-md-and-up {
