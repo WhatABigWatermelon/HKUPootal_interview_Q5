@@ -130,11 +130,15 @@ body {
 }
 .el-image__error {
   background: url('./assets/fail.png') no-repeat center;
-  background-size: contain;
+  background-size: containr4;
 }
 @media (max-width: 768px) {
   .hidden-md-and-up {
     display: block;
+  }
+  .el-card {
+    width: 90%;
+    margin: 0 5%;
   }
 }
 @media (min-width: 768px) {
