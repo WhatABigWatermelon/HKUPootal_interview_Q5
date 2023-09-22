@@ -1,9 +1,6 @@
 # 当发生错误时中止脚本
 set -e
 
-#删除旧的构建
-del dist
-
 # 构建
 npm run build
 
